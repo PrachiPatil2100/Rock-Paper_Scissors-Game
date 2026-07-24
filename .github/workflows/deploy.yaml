@@ -13,7 +13,7 @@ jobs:
     steps:
     # 1. Repository ka code runner par download karna
     - name: Checkout code
-      uses: actions/checkout@v4
+      uses: actions/checkout@v7
 
     # 2. Python environment setup karna
     - name: Set up Python
