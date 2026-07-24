@@ -1,0 +1,14 @@
+name: Deploy RPS
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:                    
+  rps-job:
+    name: My-RPS-job
+    runs-on: ubuntu-latest
+    steps: 
+      - name: steps-rps
+        run: echo "Hello, World!"
