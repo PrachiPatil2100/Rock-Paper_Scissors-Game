@@ -16,7 +16,7 @@ def determine_winner(player, computer):
     else:
         return "computer"
 
-def play_game():
+def play_game:
     print("========================================")
     print("   WELCOME TO ROCK, PAPER, SCISSORS!    ")
     print("========================================")
